@@ -177,7 +177,7 @@ export default function Footer() {
                                         </a>
                                         <a href="https://instagram.com/imofinance" target="_blank" rel="noopener noreferrer" className="hover:text-green-300 transition-colors duration-300 cursor-pointer">
                                             Instagram
-                                        </a> 
+                                        </a>
                                     </div>
                                 </div>
                             </div>
