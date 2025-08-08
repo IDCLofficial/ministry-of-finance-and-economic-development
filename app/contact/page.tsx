@@ -1,5 +1,5 @@
-import { FaInstagram, FaSquareFacebook, FaTwitter } from "react-icons/fa6";
 "use client";
+import { FaInstagram, FaSquareFacebook, FaTwitter } from "react-icons/fa6";
 import { useState, useCallback, FormEvent, ChangeEvent } from "react";
 import toast from "react-hot-toast";
 import AnimatedEntrance from "../../components/AnimatedEntrance";
