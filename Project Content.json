@@ -1,0 +1,300 @@
+{
+  "ministry": "Ministry of Finance and Economic Development",
+  "state": "Imo State",
+  "pages": {
+    "home": {
+      "page_name": "Home",
+      "content": {
+        "header_section": {
+          "logo_position": "top right",
+          "navigation_menu": [
+            "Home",
+            "About",
+            "Services", 
+            "Projects",
+            "Departments",
+            "Contact Us"
+          ],
+          "contact_address": "Block Four, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State",
+          "features": ["Simple, clean layout", "Search Bar included"]
+        },
+        "hero_section": {
+          "banner_type": "wide, responsive image banner",
+          "main_message": "Economic development through strategic investments.",
+          "subtext": "Building trust, ensuring transparency, and driving sustainable financial growth in Imo State."
+        },
+        "commissioner_introduction": {
+          "name": "Honourable Chuk Chukwuemeka",
+          "photo": "Picture included",
+          "biography": "Honourable Chuk Chukwuemeka, with decades of experience in financial management, previously served as Director of Public Procurement and Economic Adviser under Governor Ikedi Ohakim. He currently leads as Finance Commissioner under Governor Hope Uzodimma.",
+          "cta_button": "Learn More button to read the full profile"
+        },
+        "our_services": {
+          "title": "OUR SERVICES (Core Functions Cards)",
+          "display_format": "card format with an icon and a 'Learn More' button",
+          "services": [
+            "Financial Policy Development",
+            "Revenue Mobilization and Allocation",
+            "Budgeting and Fiscal Planning",
+            "Debt and Asset Management",
+            "Expenditure Monitoring and Reporting"
+          ]
+        },
+        "news_projects": {
+          "featured_news": "Featured recent news article with image preview",
+          "featured_project": "Featured ongoing or completed project",
+          "cta_buttons": ["View All News", "View All Projects"]
+        },
+        "faq_section": {
+          "format": "Collapsible FAQ format",
+          "content": "brief responses to common inquiries (e.g., how to access services, budget processes, tax concerns)"
+        },
+        "newsletter_subscription": {
+          "title": "NEWSLETTER SUBSCRIPTION",
+          "message": "Stay informed and empowered—subscribe to our newsletter for timely updates on state budgets, programs, financial reforms, and more.",
+          "form": "Simple form: Email input and Subscribe button (highlighted in Ministry's theme color)"
+        }
+      }
+    },
+    "about_us": {
+      "page_name": "About Us",
+      "content": {
+        "banner": {
+          "style": "Green Banner",
+          "text": "About Us",
+          "background": "full-width banner with a green background and bold white text"
+        },
+        "who_we_are": {
+          "layout": "clean two-column layout",
+          "left_column": "A high-quality photo of the ministry building or an official event",
+          "right_column_text": "The Imo State Ministry of Finance is the backbone of the state's financial system. It is responsible for the efficient planning, coordination, and control of all financial matters of the state government. The ministry ensures accountability, transparency, and optimal use of resources in support of economic growth and development in Imo State.",
+          "cta_button": "Our Departments → leads to a detailed page about key departments and units"
+        },
+        "leadership": {
+          "format": "simple hierarchical chart",
+          "structure": [
+            "Hon. Chuk Chukwuemeka – Commissioner",
+            "Permanent Secretary",
+            "Directors of Units and Departments (Budget, Treasury, Internal Revenue, etc.)"
+          ]
+        },
+        "how_we_operate": {
+          "description": "The Ministry operates through specialized departments and units that handle budgeting, treasury management, economic planning, internal revenue generation, procurement oversight, donor coordination, and fiscal policy development. Each unit plays a critical role in ensuring that the financial systems of Imo State remain responsive, transparent, and effective."
+        },
+        "mission_statement": "To manage the financial resources of Imo State with transparency, integrity, and efficiency, in order to promote sustainable development, improve service delivery, and enhance the standard of living of Imo citizens.",
+        "vision_statement": "To become a model public finance institution delivering accountable and innovative financial services that support inclusive economic growth and development in Imo State.",
+        "core_values": {
+          "transparency": "Upholding openness in all financial dealings",
+          "accountability": "Answering for the proper use of state funds",
+          "integrity": "Doing the right thing, even when no one is watching",
+          "professionalism": "Maintaining high standards and ethics in service",
+          "innovation": "Seeking new ways to improve financial systems and service delivery",
+          "people_centeredness": "Making finance work for the benefit of all Imo citizens"
+        },
+        "commissioner_profile": {
+          "photo": "A professional portrait of Hon. Chuk Chukwuemeka",
+          "bio": "Hon. Chuk Chukwuemeka, with over two decades of experience in public financial management, previously served as Director of Public Procurement and Economic Adviser under Governor Ikedi Ohakim's administration. He currently serves as Commissioner for Finance under Governor Hope Uzodimma, where he leads the charge for economic reform, fiscal responsibility, and improved financial governance."
+        },
+        "donor_development_partners": {
+          "title": "DONOR & DEVELOPMENT PARTNERS",
+          "partners": [
+            "United Nations International Children's Emergency Fund (UNICEF)",
+            "World Bank",
+            "Food and Agricultural Organization (FAO)",
+            "UK Department for International Development (DFID)",
+            "African Development Bank (AfDB)"
+          ],
+          "note": "These partnerships have played a key role in supporting infrastructure development, public sector reform, social protection, and economic empowerment programs across Imo State."
+        }
+      }
+    },
+    "departments_agencies": {
+      "page_name": "Departments/Agencies",
+      "content": {
+        "display_format": "clickable cards for each department or agency, each with a 'Learn More' button to access detailed information",
+        "departments": {
+          "department_of_expenditure": {
+            "name": "Department of Expenditure",
+            "functions": [
+              "Oversees and controls public spending in accordance with the approved budget",
+              "Ensures timely and efficient release of funds to ministries, departments, and agencies (MDAs)",
+              "Monitors financial commitments and expenditure trends to maintain fiscal discipline"
+            ]
+          },
+          "department_of_financial_services": {
+            "name": "Department of Financial Services",
+            "functions": [
+              "Manages financial instruments, state investments, and debt servicing",
+              "Oversees state loans, grants, and financial agreements with domestic and international bodies",
+              "Ensures optimal use of financial resources and services"
+            ]
+          },
+          "department_of_budget": {
+            "name": "Department of Budget",
+            "functions": [
+              "Prepares and coordinates the state's annual budget",
+              "Aligns budget proposals with government priorities and economic policies",
+              "Monitors and evaluates budget implementation and performance"
+            ]
+          },
+          "department_of_accounts": {
+            "name": "Department of Accounts",
+            "functions": [
+              "Maintains accurate financial records of all government transactions",
+              "Prepares financial statements, payment vouchers, and reports",
+              "Ensures adherence to financial regulations and accounting standards"
+            ]
+          },
+          "department_of_economic_research": {
+            "name": "Department of Economic Research and Policy Management",
+            "functions": [
+              "Conducts economic research to inform fiscal and financial policies",
+              "Analyzes trends, forecasts, and indicators to guide planning",
+              "Advises on strategies for economic growth and development"
+            ]
+          },
+          "department_of_internal_audit": {
+            "name": "Department of Internal Audit",
+            "functions": [
+              "Carries out internal audits to ensure compliance and financial integrity",
+              "Identifies risks, irregularities, and areas for improvement",
+              "Recommends corrective measures and ensures accountability"
+            ]
+          },
+          "department_of_procurement": {
+            "name": "Department of Procurement",
+            "functions": [
+              "Oversees transparent and efficient procurement processes for goods and services",
+              "Ensures compliance with procurement laws and guidelines",
+              "Maintains a database of vendors and contracts"
+            ]
+          },
+          "department_of_hr": {
+            "name": "Department of Human Resources Management",
+            "functions": [
+              "Manages staff recruitment, training, promotions, and welfare",
+              "Ensures effective human resource planning and development",
+              "Oversees performance management and capacity building"
+            ]
+          },
+          "department_of_ict": {
+            "name": "Department of Information, Communication and Technology (ICT)",
+            "functions": [
+              "Supports digital transformation of financial operations and reporting",
+              "Maintains IT infrastructure and secure data systems",
+              "Facilitates automation and e-governance within the ministry"
+            ]
+          },
+          "legal_unit": {
+            "name": "Legal Unit",
+            "functions": [
+              "Provides legal advice on financial policies, contracts, and agreements",
+              "Drafts and reviews legal documents and memoranda of understanding",
+              "Represents the ministry in legal matters and ensures compliance with laws and regulations"
+            ]
+          }
+        },
+        "agencies": [
+          "Imo State Board of Internal Revenue (IIRS)",
+          "Office of the Accountant-General",
+          "Imo State Investment Promotion Agency (ISIPA)"
+        ]
+      }
+    },
+    "projects": {
+      "page_name": "Projects",
+      "content": {
+        "overview": "Welcome to our Projects Hub, where you can explore key government initiatives aimed at driving economic prosperity, enhancing infrastructure, and improving livelihoods across Imo State. Each project reflects our commitment to transparency, impact, and inclusive growth.",
+        "display_format": "Project Cards Section (Visual Layout) - Each project appears as a card with: A title, A short teaser description, A 'Learn More' button leading to the full project details",
+        "projects": {
+          "affordable_housing": {
+            "title": "Affordable Housing Initiative",
+            "teaser": "Building modern, cost-effective housing for Imo families.",
+            "description": "We are expanding access to safe, affordable homes through strategic public-private partnerships. These projects reduce housing deficits while creating construction jobs across local communities.",
+            "cta": "Learn More"
+          },
+          "economic_diversification": {
+            "title": "Economic Diversification & Infrastructure Development",
+            "teaser": "Reducing dependence on oil, strengthening our economy.",
+            "description": "This project supports investments in agriculture, energy, ICT, and logistics infrastructure across Imo. Our goal is to lay the foundation for sustainable development and generate new streams of revenue.",
+            "cta": "Learn More"
+          },
+          "msmes_support": {
+            "title": "MSMEs Growth & Empowerment Program",
+            "teaser": "Fueling the heart of our economy—small businesses.",
+            "description": "We provide funding, mentorship, and digital tools to empower micro, small, and medium-scale enterprises. This initiative supports job creation, innovation, and financial inclusion across all LGAs in Imo State.",
+            "cta": "Learn More"
+          }
+        },
+        "closing_statement": "Through these projects, the Imo State Ministry of Finance and Economic Development is unlocking opportunities, solving real challenges, and building a more resilient future for every Imolite."
+      }
+    },
+    "contact_us": {
+      "page_name": "Contact Us",
+      "content": {
+        "hero_banner": {
+          "style": "Blue Hero Banner",
+          "title": "CONTACT US",
+          "subtitle": "Let's talk. Reach out to us for enquiries, feedback, or partnership opportunities."
+        },
+        "get_in_touch": {
+          "phone_number": "083-230940",
+          "email_address": "info@finance.imostate.gov.ng",
+          "head_office": "Block 4, Imo State Secretariat, Port Harcourt Road, Owerri, Imo State",
+          "office_hours": "Monday to Friday, 8:00 AM – 4:00 PM"
+        },
+        "contact_form": {
+          "title": "Send Us a Message",
+          "subtitle": "We'd love to hear from you. Kindly fill out the form below and we'll get back to you promptly.",
+          "fields": [
+            "Your Name: [__________]",
+            "Company Name: [__________]",
+            "Phone Number: [__________]",
+            "Email Address: [__________]",
+            "Subject: [__________]",
+            "Your Message: [__________________________________________]"
+          ],
+          "security": "[I'm not a robot]",
+          "submit_button": "SEND MESSAGE"
+        },
+        "location_map": {
+          "feature": "A Google Map integration showing the Imo State Secretariat location"
+        }
+      }
+    },
+    "news": {
+      "page_name": "News",
+      "content": {
+        "hero_section": {
+          "title": "LATEST NEWS & EVENTS",
+          "subtitle": "Stay informed on updates, milestones, and key engagements from the Ministry."
+        },
+        "news_section": {
+          "format": "Cards or Feed Style - Each news item should be clickable with a headline, brief summary, and a Read More button",
+          "news_highlights": [
+            {
+              "title": "Imo State Deepens Collaboration with World Bank",
+              "date": "November 11, 2024",
+              "summary": "In a major milestone, the Ministry formalized a collaboration with the World Bank to support fiscal reforms and infrastructure financing.",
+              "cta": "Read More"
+            },
+            {
+              "title": "Honourable Commissioner's Statewide Tour of WASH Facilities",
+              "date": "May 29, 2024", 
+              "summary": "The Honourable Commissioner visited WASH sites across the state to assess infrastructure gaps and engage with local authorities.",
+              "cta": "Read More"
+            }
+          ]
+        },
+        "events_spotlight": {
+          "title": "Events Spotlight",
+          "featured_event": {
+            "title": "SURWASH Program Launch",
+            "description": "The Sustainable Urban and Rural Water Supply, Sanitation, and Hygiene (SURWASH) initiative kicks off in Imo State, bringing a new phase of improved public health infrastructure.",
+            "cta": "Read More"
+          }
+        }
+      }
+    }
+  }
+}
