@@ -1,6 +1,8 @@
+
+"use client";
+
 import Image from 'next/image'
 import Link from 'next/link'
-"use client";
 import React, { useCallback, useState, FormEvent, ChangeEvent } from 'react'
 import toast from 'react-hot-toast'
 import AnimatedEntrance from '../../components/AnimatedEntrance'
