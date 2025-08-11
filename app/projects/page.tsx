@@ -120,46 +120,6 @@ export default function Projects() {
                     </div>
                 </div>
             </section>
-
-            {/* Strategic Goals Section */}
-            <section className="py-16 bg-gray-50">
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="text-center mb-10">
-                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Objectives</h2>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-                            Through these projects, the Imo State Ministry of Finance and Economic Development is unlocking opportunities, solving real challenges, and building a more resilient future for every Imolite.
-                        </p>
-                    </div>
-                    
-                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        {[
-                            "Drive economic prosperity through strategic financial management and fiscal policies.",
-                            "Enhance infrastructure development through transparent and efficient resource allocation.",
-                            "Improve livelihoods across Imo State through inclusive economic growth initiatives.",
-                            "Promote transparency and accountability in all financial operations and project implementation.",
-                            "Support the growth and sustainability of micro, small and medium enterprises (MSMEs).",
-                            "Strengthen financial systems for evidence-based economic policymaking.",
-                            "Enhance economic competitiveness and investment attractiveness of Imo State.",
-                            "Promote inclusive growth and social development through targeted financial interventions.",
-                            "Develop strategic partnerships with private sector and development partners.",
-                            "Enhance the capacity of financial institutions and economic development stakeholders."
-                        ].map((goal, index) => (
-                            <AnimatedEntrance 
-                                key={index} 
-                                {...ANIMATION_PRESETS.CARD_FADE_UP} 
-                                delay={0.1 * index}
-                            >
-                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
-                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
-                                        <span className="text-green-600 font-semibold">{index + 1}</span>
-                                    </div>
-                                    <p className="text-gray-700">{goal}</p>
-                                </div>
-                            </AnimatedEntrance>
-                        ))}
-                    </div>
-                </div>
-            </section>
         </div>
     );
 }

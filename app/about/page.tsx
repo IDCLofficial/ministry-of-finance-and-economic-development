@@ -134,6 +134,40 @@ export default function About() {
                 </div>
             </section>
 
+            {/* Commissioner Profile Section */}
+            <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
+                        <div className="order-2 lg:order-1">
+                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
+                                Hon. Chuk Chukwuemeka
+                            </h2>
+                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
+                                Honorable Commissioner for Finance and Economic Development
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
+                                Hon. Chuk Chukwuemeka, with over two decades of experience in public financial management, previously served as Director of Public Procurement and Economic Adviser under Governor Ikedi Ohakim&apos;s administration. He currently serves as Commissioner for Finance under Governor Hope Uzodimma, where he leads the charge for economic reform, fiscal responsibility, and improved financial governance.
+                            </p>
+                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
+                                Under the visionary leadership of Governor Hope Uzodimma, we are committed to transforming Imo State&apos;s economy through prudent financial management,
+                                innovative revenue generation strategies, and sustainable economic development initiatives. Our focus remains on transparency, accountability,
+                                and the efficient utilization of state resources to deliver quality services and infrastructure that will improve the lives of all Imo citizens.
+                                Together, we are building a stronger, more prosperous Imo State for future generations.
+                            </p>
+                        </div>
+                        <div className="order-1 lg:order-2">
+                            <Image
+                                src="/assets/no-image.png"
+                                alt="Hon. Chuk Chukwuemeka - Honorable Commissioner for Finance and Economic Development"
+                                width={500}
+                                height={600}
+                                className="rounded-lg shadow-lg w-full h-auto"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Core Responsibilities Section */}
             <section className="py-12 sm:py-16 md:py-20 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
@@ -148,7 +182,7 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -193,7 +227,7 @@ export default function About() {
                         <div className="bg-gray-50 p-6 sm:p-8 rounded-lg text-center">
                             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
                                 <svg className="w-8 h-8 sm:w-10 sm:h-10 text-green-600" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h6v-2h-4V7z"/>
+                                    <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm1-13h-2v6h6v-2h-4V7z" />
                                 </svg>
                             </div>
                             <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-gray-900 mb-3 sm:mb-4">
@@ -222,36 +256,42 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Commissioner Profile Section */}
-            <section className="py-12 sm:py-16 md:py-20 bg-gray-50">
+            {/* Strategic Goals Section */}
+            <section className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-20">
-                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16 items-center">
-                        <div className="order-2 lg:order-1">
-                            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
-                                Hon. Chuk Chukwuemeka
-                            </h2>
-                            <p className="text-lg sm:text-xl text-green-600 font-semibold mb-4 sm:mb-6">
-                                Honorable Commissioner for Finance and Economic Development
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-4 sm:mb-6">
-                                Hon. Chuk Chukwuemeka, with over two decades of experience in public financial management, previously served as Director of Public Procurement and Economic Adviser under Governor Ikedi Ohakim&apos;s administration. He currently serves as Commissioner for Finance under Governor Hope Uzodimma, where he leads the charge for economic reform, fiscal responsibility, and improved financial governance.
-                            </p>
-                            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed mb-6 sm:mb-8">
-                                Under the visionary leadership of Governor Hope Uzodimma, we are committed to transforming Imo State&apos;s economy through prudent financial management, 
-                                innovative revenue generation strategies, and sustainable economic development initiatives. Our focus remains on transparency, accountability, 
-                                and the efficient utilization of state resources to deliver quality services and infrastructure that will improve the lives of all Imo citizens. 
-                                Together, we are building a stronger, more prosperous Imo State for future generations.
-                            </p>
-                        </div>
-                        <div className="order-1 lg:order-2">
-                            <Image
-                                src="/assets/no-image.png"
-                                alt="Hon. Chuk Chukwuemeka - Honorable Commissioner for Finance and Economic Development"
-                                width={500}
-                                height={600}
-                                className="rounded-lg shadow-lg w-full h-auto"
-                            />
-                        </div>
+                    <div className="text-center mb-10">
+                        <h2 className="text-3xl font-bold text-gray-900 mb-4">Our Strategic Objectives</h2>
+                        <p className="text-lg text-gray-600 max-w-3xl mx-auto">
+                            Through these projects, the Imo State Ministry of Finance and Economic Development is unlocking opportunities, solving real challenges, and building a more resilient future for every Imolite.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        {[
+                            "Drive economic prosperity through strategic financial management and fiscal policies.",
+                            "Enhance infrastructure development through transparent and efficient resource allocation.",
+                            "Improve livelihoods across Imo State through inclusive economic growth initiatives.",
+                            "Promote transparency and accountability in all financial operations and project implementation.",
+                            "Support the growth and sustainability of micro, small and medium enterprises (MSMEs).",
+                            "Strengthen financial systems for evidence-based economic policymaking.",
+                            "Enhance economic competitiveness and investment attractiveness of Imo State.",
+                            "Promote inclusive growth and social development through targeted financial interventions.",
+                            "Develop strategic partnerships with private sector and development partners.",
+                            "Enhance the capacity of financial institutions and economic development stakeholders."
+                        ].map((goal, index) => (
+                            <AnimatedEntrance
+                                key={index}
+                                {...ANIMATION_PRESETS.CARD_FADE_UP}
+                                delay={0.1 * index}
+                            >
+                                <div className="flex items-start p-4 bg-white rounded-lg shadow-sm">
+                                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-green-100 flex items-center justify-center mr-4">
+                                        <span className="text-green-600 font-semibold">{index + 1}</span>
+                                    </div>
+                                    <p className="text-gray-700">{goal}</p>
+                                </div>
+                            </AnimatedEntrance>
+                        ))}
                     </div>
                 </div>
             </section>
@@ -302,9 +342,9 @@ export default function About() {
                                 <h3 className="text-xl font-bold text-gray-900">[Permanent Secretary&apos;s Name]</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
                                 <p className="mt-4 text-gray-600">
-                                    The Permanent Secretary provides strategic leadership for the ministry&apos;s administrative and financial operations, 
-                                    ensuring effective implementation of fiscal policies and economic development programs. Working closely with the 
-                                    Honorable Commissioner, they oversee budget execution, revenue collection, financial reporting, and the 
+                                    The Permanent Secretary provides strategic leadership for the ministry&apos;s administrative and financial operations,
+                                    ensuring effective implementation of fiscal policies and economic development programs. Working closely with the
+                                    Honorable Commissioner, they oversee budget execution, revenue collection, financial reporting, and the
                                     coordination of economic development initiatives that drive growth and prosperity across Imo State.
                                 </p>
                             </div>
