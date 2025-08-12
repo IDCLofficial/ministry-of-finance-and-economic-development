@@ -58,31 +58,31 @@ export default function Services() {
                         {/* Service 2 - Livestock Development */}
                         <AnimatedEntrance {...ANIMATION_PRESETS.CARD_FADE_UP} delay={STAGGER_DELAYS.MEDIUM[2]}>
                             <div className="bg-white border border-gray-200 rounded-lg p-6 sm:p-8 hover:shadow-lg hover:transform hover:scale-105 transition-all duration-300">
-                            <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
-                                <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
-                                    <path fillRule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-                                </svg>
-                            </div>
-                            <h3 className="text-xl font-bold text-gray-900 mb-4">
-                                Revenue Mobilization and Allocation
-                            </h3>
-                            <p className="text-gray-600 mb-6 leading-relaxed">
-                                We optimize revenue collection and ensure equitable distribution of financial resources across all sectors of the state economy, maximizing fiscal efficiency.
-                            </p>
-                            <ul className="text-sm text-gray-600 space-y-2 mb-6">
-                                <li className="flex items-center">
-                                    <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                    Revenue optimization strategies
-                                </li>
-                                <li className="flex items-center">
-                                    <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                    Resource allocation management
-                                </li>
-                                <li className="flex items-center">
-                                    <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
-                                    Fiscal efficiency enhancement
-                                </li>
-                            </ul>
+                                <div className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mb-6">
+                                    <svg className="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 20 20">
+                                        <path fillRule="evenodd" d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                                    </svg>
+                                </div>
+                                <h3 className="text-xl font-bold text-gray-900 mb-4">
+                                    Revenue Mobilization and Allocation
+                                </h3>
+                                <p className="text-gray-600 mb-6 leading-relaxed">
+                                    We optimize revenue collection and ensure equitable distribution of financial resources across all sectors of the state economy, maximizing fiscal efficiency.
+                                </p>
+                                <ul className="text-sm text-gray-600 space-y-2 mb-6">
+                                    <li className="flex items-center">
+                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
+                                        Revenue optimization strategies
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
+                                        Resource allocation management
+                                    </li>
+                                    <li className="flex items-center">
+                                        <div className="w-1.5 h-1.5 bg-green-500 rounded-full mr-3"></div>
+                                        Fiscal efficiency enhancement
+                                    </li>
+                                </ul>
                             </div>
                         </AnimatedEntrance>
 
@@ -251,18 +251,18 @@ export default function Services() {
                         Ready to Get Started?
                     </h2>
                     <p className="text-lg text-green-100 mb-8 sm:mb-12 max-w-3xl mx-auto">
-                        Contact us today to learn more about our services and how we can support 
+                        Contact us today to learn more about our services and how we can support
                         your financial and economic development needs in Imo State.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link 
-                            href="/contact" 
+                        <Link
+                            href="/contact"
                             className="bg-white text-green-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
                         >
                             Contact Us Today
                         </Link>
-                        <Link 
-                            href="/about" 
+                        <Link
+                            href="/about"
                             className="border-2 border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
                         >
                             Learn More About Us
