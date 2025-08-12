@@ -341,12 +341,6 @@ export default function About() {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-900">[Permanent Secretary&apos;s Name]</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
-                                <p className="mt-4 text-gray-600">
-                                    The Permanent Secretary provides strategic leadership for the ministry&apos;s administrative and financial operations,
-                                    ensuring effective implementation of fiscal policies and economic development programs. Working closely with the
-                                    Honorable Commissioner, they oversee budget execution, revenue collection, financial reporting, and the
-                                    coordination of economic development initiatives that drive growth and prosperity across Imo State.
-                                </p>
                             </div>
                         </div>
                     </div>
