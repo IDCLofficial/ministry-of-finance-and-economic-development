@@ -16,7 +16,7 @@ export default function About() {
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-16">
                         <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/STRUC - MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT.jpg"
                                 alt="Ministry of Finance and Economic Development - Managing Imo State's Financial Resources"
                                 width={600}
                                 height={400}
@@ -155,9 +155,9 @@ export default function About() {
                                 Together, we are building a stronger, more prosperous Imo State for future generations.
                             </p>
                         </div>
-                        <div className="order-1 lg:order-2">
+                        <div className="order-1 lg:order-2 aspect-[3/4]">
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/Hon. Chuk Chukwuemeka - Commissioner for Finance and Economic Development.jpeg"
                                 alt="Hon. Chuk Chukwuemeka - Honorable Commissioner for Finance and Economic Development"
                                 width={500}
                                 height={600}
@@ -311,7 +311,7 @@ export default function About() {
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
                             <div className="h-64 bg-gray-100 overflow-hidden">
                                 <Image
-                                    src="/assets/no-image.png"
+                                    src="/photos/Hon. Chuk Chukwuemeka - Commissioner for Finance and Economic Development.jpeg"
                                     alt="Hon. Chuk Chukwuemeka - Honorable Commissioner for Finance and Economic Development"
                                     width={400}
                                     height={400}
@@ -321,17 +321,14 @@ export default function About() {
                             <div className="p-6">
                                 <h3 className="text-xl font-bold text-gray-900">Hon. Chuk Chukwuemeka</h3>
                                 <p className="text-green-700 font-medium mt-1">Honorable Commissioner for Finance and Economic Development</p>
-                                <p className="mt-4 text-gray-600">
-                                    Hon. Chuk Chukwuemeka, with over two decades of experience in public financial management, previously served as Director of Public Procurement and Economic Adviser under Governor Ikedi Ohakim&apos;s administration. He currently serves as Commissioner for Finance under Governor Hope Uzodimma, where he leads the charge for economic reform, fiscal responsibility, and improved financial governance.
-                                </p>
                             </div>
                         </div>
 
                         {/* Permanent Secretary */}
                         <div className="bg-white rounded-xl shadow-lg overflow-hidden border border-gray-100">
-                            <div className="h-64 bg-gray-100 overflow-hidden">
+                            <div className="aspect-[3.8/4] bg-gray-100 overflow-hidden">
                                 <Image
-                                    src="/assets/no-image.png"
+                                    src="/photos/NDUBUEZE AUGUSTINA  PERMANENT SECRETARY  MINISTRY OF FINANCE & COORDINATING ECONOMY.jpeg"
                                     alt="Permanent Secretary - Ministry of Finance and Economic Development"
                                     width={400}
                                     height={400}
@@ -339,7 +336,7 @@ export default function About() {
                                 />
                             </div>
                             <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900">[Permanent Secretary&apos;s Name]</h3>
+                                <h3 className="text-xl font-bold text-gray-900 capitalize">NDUBUEZE AUGUSTINA</h3>
                                 <p className="text-green-700 font-medium mt-1">Permanent Secretary</p>
                             </div>
                         </div>
@@ -361,7 +358,7 @@ export default function About() {
                         </div>
                         <div>
                             <Image
-                                src="/assets/no-image.png"
+                                src="/photos/ST - MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT.jpg"
                                 alt="Ministry of Finance and Economic Development - Organizational Structure"
                                 width={600}
                                 height={400}
@@ -482,7 +479,6 @@ export default function About() {
                     </div>
                 </div>
             </section>
-
         </div>
     );
 }

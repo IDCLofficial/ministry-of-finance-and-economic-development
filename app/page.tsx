@@ -30,8 +30,8 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 sm:gap-8 md:gap-12 items-center">
             <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP} className="order-2 lg:order-1">
               <Image
-                src="/assets/no-image.png"
-                alt="Ministry of Labour and Employment Headquarters"
+                src="/photos/STRUC - MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT.jpg"
+                alt="MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT"
                 width={600}
                 height={400}
                 className="rounded-lg shadow-lg w-full h-auto hover:shadow-xl transition-shadow duration-300"
@@ -92,7 +92,7 @@ export default function Home() {
             <div className="flex-1 order-1 lg:order-2">
               <AnimatedEntrance {...ANIMATION_PRESETS.IMAGE_FADE_UP}>
                   <Image
-                    src="/assets/no-image.png"
+                    src="/photos/Hon. Chuk Chukwuemeka - Commissioner for Finance and Economic Development.jpeg"
                     alt="Hon. Chuk Chukwuemeka - Honourable Commissioner for Finance and Economic Development"
                     width={500}
                     height={600}
@@ -204,11 +204,11 @@ export default function Home() {
             </p>
           </AnimatedEntrance>
           <div className="grid justify-center grid-cols-[repeat(auto-fill,minmax(150px,1fr))] gap-6 sm:gap-8 items-center">
-            {[{ name: 'UNICEF', logo: '/assets/partners/unicef-logo.png' },
-              { name: 'World Bank', logo: '/assets/partners/world-bank-logo.png' },
-              { name: 'FAO', logo: '/assets/partners/fao-logo.png' },
-              { name: 'DFID', logo: '/assets/partners/dfid-logo.png' },
-              { name: 'AfDB', logo: '/assets/partners/afdb-logo.png' },
+            {[{ name: 'UNICEF', logo: '/photos/unicef-logo.webp' },
+              { name: 'World Bank', logo: '/photos/world-bank-logo.png' },
+              { name: 'FAO', logo: '/photos/fao-logo.png' },
+              { name: 'DFID', logo: '/photos/dfid-logo.jpg' },
+              { name: 'AfDB', logo: '/photos/afdb-logo.png' },
             ].map((partner, index) => (
               <AnimatedEntrance
                 key={partner.name}
@@ -224,7 +224,7 @@ export default function Home() {
                       width={100}
                       title={`Partner ${partner.name}`}
                       height={60}
-                      className="w-full h-auto object-contain"
+                      className="w-full h-auto object-contain aspect-[2/1]"
                     />
                   </div>
                 </div>

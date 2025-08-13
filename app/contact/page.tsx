@@ -130,14 +130,8 @@ export default function Contact() {
                                         </div>
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">Socials</h3>
                                         <div className="flex space-x-3 text-white">
-                                            <a href="https://facebook.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
-                                                <FaSquareFacebook />
-                                            </a>
-                                            <a href="https://twitter.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
+                                            <a href="https://x.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
                                                 <FaTwitter />
-                                            </a>
-                                            <a href="https://instagram.com/imofinance" target="_blank" rel="noopener noreferrer" className="w-8 h-8 bg-green-500 rounded flex items-center justify-center hover:bg-green-600 transition-colors">
-                                                <FaInstagram />
                                             </a>
                                         </div>
                                     </div>

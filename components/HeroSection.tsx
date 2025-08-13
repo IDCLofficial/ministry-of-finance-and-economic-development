@@ -20,7 +20,7 @@ const HeroSection = ({
   title,
   subtitle,
   description,
-  backgroundImage = '/hero_section.png',
+  backgroundImage = '/photos/Banna - Ministry of Finance and Economic Development.jpg',
   backgroundGradient,
   height = 'medium',
   alignment = 'left',
@@ -79,7 +79,7 @@ const HeroSection = ({
 
       {/* Overlay */}
       {overlay && (
-        <div className="absolute inset-0 bg-black/20"></div>
+        <div className="absolute inset-0 bg-black/70"></div>
       )}
 
       {/* Content */}

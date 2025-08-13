@@ -15,7 +15,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Infrastructure Development",
         status: "Ongoing",
-        partners: "Public-Private Partnerships"
+        partners: "Public-Private Partnerships",
+        imageSrc: "/photos/affordable_housing - MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT.jpeg",
     },
     {
         number: 2,
@@ -24,7 +25,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Economic Development",
         status: "Ongoing",
-        partners: "Development Partners, Private Sector"
+        partners: "Development Partners, Private Sector",
+        imageSrc: "/photos/economic_diversification - MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT.jpg",
     },
     {
         number: 3,
@@ -33,7 +35,8 @@ const SPECIAL_PROJECTS = [
         location: "Statewide",
         category: "Enterprise Development",
         status: "Active",
-        partners: "Financial Institutions, Development Agencies"
+        partners: "Financial Institutions, Development Agencies",
+        imageSrc: "/photos/msmes_growth - MINISTRY OF FINANCE & ECONOMIC DEVELOPMENT.jpg",
     }
 ];
 
@@ -75,7 +78,7 @@ export default function Projects() {
                                     <div className="bg-white border border-gray-200 h-full rounded-lg overflow-hidden hover:shadow-lg transition-all duration-300">
                                         <div className="h-48 bg-green-50 flex items-center justify-center overflow-hidden">
                                             <Image
-                                                src={'/assets/no-image-lg.jpg'}
+                                                src={project.imageSrc || '/assets/no-image-lg.jpg'}
                                                 alt={project.title}
                                                 width={400}
                                                 height={200}

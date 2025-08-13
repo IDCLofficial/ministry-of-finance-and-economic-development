@@ -18,6 +18,13 @@ export const HERO_CONFIGS = {
     height: 'extra-large' as const,
     alignment: 'left' as const
   },
+
+  DEPARTMENT: {
+    title: "Our Departments & Agencies",
+    description: "Welcome to our Departments & Agencies Hub, where you can explore key government initiatives aimed at driving economic prosperity, enhancing infrastructure, and improving livelihoods across Imo State.",
+    height: 'medium' as const,
+    alignment: 'left' as const
+  },
   
   PROJECTS: {
     title: "Our Projects & Programs",
@@ -39,7 +46,6 @@ export const HERO_CONFIGS = {
     description: "The Ministry of Finance and Economic Development offers a comprehensive range of financial and economic services to support sustainable development, fiscal responsibility, and inclusive economic growth in Imo State.",
     height: 'medium' as const,
     alignment: 'left' as const,
-    overlay: false
   },
   
   NEWS: {
