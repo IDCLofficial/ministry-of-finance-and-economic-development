@@ -1,6 +1,4 @@
 import { HERO_CONFIGS } from "@/utils/constants/heroSections";
-import AnimatedEntrance from "../../components/AnimatedEntrance";
-import { ANIMATION_PRESETS } from "../../utils/constants/animations";
 import TabContentSystem from "../components/TabContentSystem";
 import HeroSection from "@/components/HeroSection";
 
