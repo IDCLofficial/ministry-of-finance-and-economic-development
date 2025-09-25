@@ -7,7 +7,7 @@ image: idclofficial/ministry_of_finance_and_economic_development
 # Deploy to these servers.
 servers:
   web:
-    - 34.241.217.137
+    - 15.237.252.202
 
 proxy:
   ssl: true
@@ -25,7 +25,7 @@ registry:
     - KAMAL_REGISTRY_PASSWORD
 
 ssh:
-  user: kamal
+  user: ubuntu
 
 # Configure builder setup.
 builder:
