@@ -6,8 +6,8 @@ import { ANIMATION_PRESETS, STAGGER_DELAYS } from "../../utils/constants/animati
 import { pageMetadata } from "@/lib/seo";
 
 export const metadata = pageMetadata({
-  title: "Services",
-  description: "Services offered by the Ministry of Finance & Economic Development of the Imo State Government.",
+  title: "Budgeting, Revenue and Financial Policy Services",
+  description: "Financial policy development, revenue mobilization and allocation, budgeting and fiscal planning, debt and asset management and expenditure reporting in Imo State.",
   path: "/services",
 });
 
